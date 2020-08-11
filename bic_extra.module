@@ -1,0 +1,41 @@
+<?php
+
+/**
+ * @file
+ * Contains bic_extra.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+use Drupal\Core\Render\BubbleableMetadata;
+
+/**
+ * Implements hook_help().
+ */
+function bic_extra_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the bic_extra module.
+    case 'help.page.bic_extra':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Extra funktionality in BiC site') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function bic_extra_theme() {
+  return [
+    'bic_extra' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+
+
+
+ 
+ 
