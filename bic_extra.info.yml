@@ -1,0 +1,5 @@
+name: 'BiC Extra'
+type: module
+description: 'Extra funktionality in BiC site'
+core: 8.x
+package: 'TCM'
