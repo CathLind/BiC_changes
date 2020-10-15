@@ -1,0 +1,13 @@
+{
+    "name": "bic_extra",
+    "type": "drupal-module",
+    "description": "Our changes for the BiC-site",
+    "keywords": [
+    ],
+    "homepage": "https://github.com/CathLind/BiC_changes",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://github.com/CathLind/BiC_changes/issues",
+        "source": "https://github.com/CathLind/BiC_changes",
+    },
+}
