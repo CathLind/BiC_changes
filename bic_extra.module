@@ -37,5 +37,21 @@ function bic_extra_theme() {
 
 
 
+/**
+ * Implements hook_form_BASE_FORM_ID_alter() for \Drupal\node\NodeForm.
+ *
+ * Removes tabs from forms
+ *
+ */
+function bic_extra_form_node_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  // Removes all the tabs at the bottom, except the group tab if enabled
+  unset($form['meta']);
+  unset($form['menu']);
+  unset($form['path']);
+  unset($form['author']);
+  unset($form['options']);
+  $form['revision_information']['#access'] = false;
+}
+
  
  
