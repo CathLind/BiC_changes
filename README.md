@@ -12,7 +12,7 @@
 
 
 *****************************************************
-***  Content planner routed to front end theme    ***
+***  Content planner routed from admin            ***
 *****************************************************
 
 Content planners dashboard are moved from admin to its own route so it can be accessed in front end theme.
