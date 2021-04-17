@@ -1,6 +1,0 @@
-services:
-  bic_extra.route_subscriber:
-    class: Drupal\bic_extra\EventSubscriber\RouteSubscriber
-    tags:
-      - { name: event_subscriber }
-
