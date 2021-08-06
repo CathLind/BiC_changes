@@ -1,5 +1,5 @@
 {
-    "name": "bic_extra",
+    "name": "bic_extra/bic_extra",
     "type": "drupal-module",
     "description": "Our changes for the BiC-site",
     "keywords": [
